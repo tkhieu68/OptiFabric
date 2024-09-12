@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v4.3.0  # Cập nhật từ v1 lên v4
         with:
           distribution: 'temurin'  # Cần chỉ định distribution, ở đây sử dụng temurin
-          java-version: '1.8'
+          java-version: '8.0.302+8'
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Build with Gradle
